@@ -1,0 +1,35 @@
+{
+  "name": "instruments-api",
+  "version": "1.0.0",
+  "description": "A cool little api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripott/instruments-api.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon instruments-api.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node-http-error": "^2.0.0",
+    "nodemon": "^1.17.5",
+    "pouchdb-adapter-http": "^6.4.3",
+    "pouchdb-core": "^6.4.3",
+    "ramda": "^0.25.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tripott/instruments-api/issues"
+  },
+  "homepage": "https://github.com/tripott/instruments-api#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
